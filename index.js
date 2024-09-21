@@ -8,8 +8,14 @@ function writeCards(names, eventName) {
   return messages
 }
 
+// function countDown(num) {
+//   for (let i = 0; i <= num; i++) {
+//     console.log(num - i)
+//   }
+// 
+
 function countDown(num) {
-  for (let i = 0; i <= num; i++) {
-    console.log(num - i)
+  while (num >= 0) {
+    console.log(num--)
   }
 }
